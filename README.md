@@ -221,6 +221,8 @@ python alpha/plot_training_curves.py
 - MCTSPlayerV1：基础MCTS玩家
 - MCTSPlayerV2：优化版MCTS玩家
 - XshPlayer：其他AI玩家
+- human_gui_player：人类GUI玩家（修改play_vs_with_host.bat的host为host_gui.py）
+
 
 ## 开发说明
 
