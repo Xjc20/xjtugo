@@ -16,8 +16,8 @@ REM ============================================================================
 REM Step 1: Parse command line arguments
 set "play_time=4"
 set "my_player=my_player"
-set "opponent_player=opponent\random_player_0309"
-set "host_path=host"
+set "opponent_player=human_gui_player"
+set "host_path=host_gui"
 
 if not "%1"=="" set "play_time=%1"
 if not "%2"=="" set "my_player=%2"

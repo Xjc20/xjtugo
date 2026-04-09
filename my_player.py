@@ -570,7 +570,7 @@ if __name__ == "__main__":
     # 参数: 模拟次数, c_puct
     player = MCTSPlayer(
         model_path="model_best.pth",
-        num_simulations=1000,
+        num_simulations=600,
         c_puct=1.5,
         use_nn=True
     )
